@@ -14,7 +14,6 @@ long long putMarbles(vector<int>& v, int limit) {
            limit--;
 
          vector<long long int>res1;
-
           for(long long int i = 0;i<v.size()-1;i++){res1.push_back(v[i]+v[i+1]);}
 
 
