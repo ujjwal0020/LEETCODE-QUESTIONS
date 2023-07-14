@@ -7,6 +7,7 @@ public:
         n=n-i;
         i++;
     }
+
     return i-2;
     }
 };
