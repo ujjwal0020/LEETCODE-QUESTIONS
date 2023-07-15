@@ -13,7 +13,7 @@ class Solution {
 public:
 void postorder(TreeNode *root,vector<int>&ans)
 {
-    if(root!=NULL)
+    if(root!= NULL)
     {
         postorder(root->left,ans);
         postorder(root->right,ans);
