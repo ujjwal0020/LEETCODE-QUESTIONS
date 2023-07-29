@@ -9,6 +9,7 @@ public:
         }else if(target < nums[mid]){
             return bSearch(nums, target, start, mid-1);
         }else{
+
             return bSearch(nums, target, mid+1, end);
         }
     }
